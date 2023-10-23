@@ -112,7 +112,7 @@ header #HOME {
 .container1 .pots {
     height: 100%;
     width: 100%;
-    background-image: url(/images/Pots\ &\ Dots..jpg);
+    background-image: url(../images/Pots\ &\ Dots..jpg);
     background-size: cover;
     background-position: center;
 }
@@ -120,7 +120,7 @@ header #HOME {
 .container1 .cendrier {
     height: 100%;
     width: 100%;
-    background-image: url(/images/cendrier.jpg);
+    background-image: url(../images/cendrier.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -128,7 +128,7 @@ header #HOME {
 .container1 .vaisselle {
     height: 100%;
     width: 100%;
-    background-image: url(/images/VAISSEL.jfif);
+    background-image: url(../images/VAISSEL.jfif);
     background-size: cover;
     background-position: center;
 }
@@ -136,7 +136,7 @@ header #HOME {
 .container1 .plats {
     height: 100%;
     width: 100%;
-    background-image: url(/images/PLAT.jfif);
+    background-image: url(../images/PLAT.jfif);
     background-size: cover;
     background-position: center;
 }
@@ -144,7 +144,7 @@ header #HOME {
 .container1 .tajins {
     height: 100%;
     width: 100%;
-    background-image: url(/images/TAJIN.jfif);
+    background-image: url(../images/TAJIN.jfif);
     background-size: cover;
     background-position: center;
 }
@@ -205,7 +205,7 @@ header #HOME {
 .about .aboutimage {
     width: 50%;
     height: 30rem;
-    background-image: url(/IMAGES/Nouvelle-image-2.png);
+    background-image: url(../IMAGES/Nouvelle-image-2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,7 +216,7 @@ header #HOME {
 .artist {
     width: 100%;
     height: auto;
-    background-image: url(/IMAGES/ANIBA.png);
+    background-image: url(../IMAGES/ANIBA.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -260,7 +260,7 @@ line-height: normal;
 
 /* FAQ SECTION */
 .FAQ {
-    background-image: url(/IMAGES/Rectangle\ 15.png);
+    background-image: url(../IMAGES/Rectangle\ 15.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
