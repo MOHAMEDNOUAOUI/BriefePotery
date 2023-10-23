@@ -1,0 +1,139 @@
+body {
+    height: 300vh;
+    background-color: #D9D9D9;
+}
+
+.hero {
+    background-image: url(../IMAGES/galerie.png);
+}
+
+.herotext .galerieherop{
+    position: relative;
+    left: 18%;
+    bottom: 4rem;
+}
+
+/*galery*/
+.galerie {
+    width: 100vw;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gridlayout {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 1rem;
+    column-gap: .5rem;
+    width: 90%;
+    height: 120vh;
+}
+
+/* images grid */
+.images {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* gradiant */
+
+.gradiant-G {
+    width: 100%;
+    height: 0%;
+    background-color: #222124;
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+.gradianttext {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: 600ms ease-in-out;
+    /* color: black; */
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.gradianttext h1 {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(255, 174, 0),
+        0 0 82px rgb(255, 174, 0),
+        0 0 92px rgb(255, 174, 0),
+        0 0 102px rgb(255, 174, 0),
+        0 0 151px rgb(255, 174, 0);
+}
+.gradianttext p {
+    font-size: 1rem;
+    color: #fff;
+}
+.gradiant-G {
+    opacity: 0;
+}
+.images:hover .gradiant-G {
+    height: 100%;
+    opacity: 0.9;
+}
+.images:hover .gradianttext {
+    opacity: 1;
+}
+/*             */
+
+.firstimg {
+    grid-column: 1/2;
+    grid-row: span 2;
+    background-image: url(../IMAGES/TIRELIRE.webp);
+}
+
+
+
+
+.secondimg {
+    grid-column: span 2;
+    background-image: url(../IMAGES/12222222222222.webp);
+}
+
+.thirdimg {
+    grid-row: span 2;
+    background-image: url(../IMAGES/11.jpg);
+}
+
+.forthimg {
+    grid-column: 2/3;
+    background-image: url(../IMAGES/sinaa-taklidya.jpg);
+}
+.fifthimg {
+    background-image: url(../IMAGES/Rectangle\ 24.png);
+}
+
+.sixthimg {
+    background-image: url(../IMAGES/Rectangle\ 25.png);
+    grid-column: span 2;
+}
+.seventhimg {
+    background-image: url(../IMAGES/01.jpg);
+    grid-column: span 2;
+}

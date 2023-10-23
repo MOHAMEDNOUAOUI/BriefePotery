@@ -1,0 +1,427 @@
+
+
+html {
+    overflow-x: hidden;
+}
+
+.hero {
+    background: linear-gradient(0deg, var(--gradiant, rgba(0, 0, 0, 0.80)) 0%, var(--gradiant, rgba(0, 0, 0, 0.80)) 100%), url(/IMAGES/DSC_7155-HDR.jpg), lightgray -44.149px -3.286px / 111.342% 100% no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+    margin-bottom: 1rem;
+    padding-bottom: 10rem;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2%;
+    width: 100%;
+    height: 17vh;
+    background-color: #D9D9D9;
+}
+header ion-icon {
+    display: none;
+}
+
+header h1{
+    font-family: 'Old Standard TT', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+header h1 span {
+    font-weight: lighter;
+    color: #474747;
+}
+header nav ul{
+    display: flex;
+    gap: 2rem;
+}
+header nav ul a {
+    color: black;
+}
+header #HOME {
+    color: #7B6F57;
+}
+
+
+/* hero text */
+.herotext {
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: white;
+    margin-top: 10%;
+}
+.herotext #OPEN {
+    font-size: 1rem;
+    color: #7B6F57;
+}
+.herotext h1 {
+    font-size: 4rem;
+    width: 80%;
+    height: 20%
+}
+.herotext p {
+    color: #AA9876;
+    font-family: Old Standard TT;
+    font-size: 20px;
+    width: 50%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.023%;
+}
+
+/* categories */
+.categories {
+    text-align: center; 
+    color: #474747;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: 80vh;
+}
+
+.container1 {
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstcontent {
+    width: 18%;
+    height: 80%;
+}
+.firstcontent h3 {
+    margin-top: 0.5rem;
+    color: #474747;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Old Standard TT;
+}
+
+.container1 .pots {
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/Pots\ &\ Dots..jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 .cendrier {
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/cendrier.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 .vaisselle {
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/VAISSEL.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 .plats {
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/PLAT.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 .tajins {
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/TAJIN.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* video section */
+
+.vidsection {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.vidsection iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* about */
+
+.about {
+    width: 100vw;
+    height: auto;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    padding: 4rem 0;
+}
+
+.about .abouttext {
+    width: 40%;
+    height: 80%;
+}
+
+
+.abouttext h4 {
+    color: #474747;
+    font-family: Old Standard TT;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.abouttext p {
+    color: #474747;
+    font-family: Old Standard TT;
+    font-size: 20px;
+    font-weight: 400;
+    width: 30rem;
+    line-height: 156.023%;
+}
+
+
+.about .aboutimage {
+    width: 50%;
+    height: 30rem;
+    background-image: url(/IMAGES/Nouvelle-image-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* artist section */
+
+.artist {
+    width: 100%;
+    height: auto;
+    background-image: url(/IMAGES/ANIBA.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Old Standard TT;
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist #aniba {
+    color: #7B6F57;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.artist h2 {
+    color: #FFF;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.artist p {
+    color: #AA9876;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.artisttext {
+    margin: 6rem 0;
+    width: 100%;
+    margin-left: 30rem;
+}
+
+/* FAQ SECTION */
+.FAQ {
+    background-image: url(/IMAGES/Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+}
+
+.FAQ .container2 {
+    width: 60%;
+    max-width: 80rem;
+    height: 90%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+.FAQ .container2 h3 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.FAQ .questions .item1 {
+    background: #D9D9D9;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+.item1-link {
+    color: black;
+    text-decoration: none;
+    font-family: Old Standard TT;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.item1-link .up-outline{
+    display: none;
+    font-size: 2rem;
+}
+
+.rotate {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.rotate.rotated {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease; /* Add a smooth transition effect on the transform property */
+}
+
+.item1-link .down-outline {
+    font-size: 2rem;
+}
+
+.answer {
+    max-height: 0;
+    transition: max-height 300ms ease-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.answer.active {
+    
+    max-height: 1000px;
+    transition: max-height 300ms ease-in-out;
+}
+
+.answer p {
+    font-family: Old Standard TT;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 1rem;
+}
+
+
+
+/* .item1:target .answer {
+    max-height: 20rem;
+}
+
+.item1:target .down-outline {
+    display: none;
+}
+.item1:target .up-outline {
+    display: block;
+} */
+
+/* footer */
+
+footer {
+    background-color: #222124;
+    width: 100vw;
+    height: auto;
+    padding: 3rem 0;
+}
+footer .container3 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+footer .logo {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+footer .logo #M {
+    font-weight: 400;
+}
+footer .logo p {
+    color: #AA9876;
+    font-size: 1rem;
+}
+
+footer .nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav ul a {
+    color: #AA9876;
+}
+
+.localcontact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.localcontact .location h3,.localcontact .contact h3{
+    font-family: inter;
+    color: #5C5C5C;
+    font-size: 1rem;
+}
+
+.location p ,.contact p {
+    color: white;
+    font-size: .9rem;
+    margin-top: .3rem;
+}
+
+.followus h3{
+    color:#5C5C5C;
+    font-family: inter;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+.followus ion-icon {
+    font-size: 1.3rem;
+    color: #AA9876;
+    margin-right: .4rem;
+}

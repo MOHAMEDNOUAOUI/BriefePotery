@@ -1,0 +1,134 @@
+.hero {
+    background-image: url(../IMAGES/bakcgorund.png);
+    margin-bottom: 3rem;
+}
+
+.hoursshift{
+    width: 100vw;
+    height: auto;
+    background-color: #222124;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    position: relative;
+    margin-bottom: 3rem;
+    gap: 3rem;
+}
+
+.poteryguy {
+    background-image: url(../IMAGES/images\ 3.png);
+    width: 40%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 5rem;
+}
+
+.shifts p {
+    color: var(--BROWN, #7B6F57);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.023%; /* 21.843px */
+    position: relative;
+}
+
+.shifts span {
+    color: white;
+}
+
+.shifts h3 {
+    color: #FFF;
+font-family: Inter;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 156.023%; /* 56.168px */
+cursor: pointer;
+}
+
+.login {
+    position: absolute;
+    z-index: 2;
+    width: auto;
+    height: auto;
+    top: 6%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none; 
+    gap: 1rem;
+    padding: 0 2rem;
+    background-image: url(../IMAGES/Rectangle\ 29.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.login.log {
+    display: flex;
+}
+.login.close {
+    display: none;
+}
+
+.login h3 {
+    margin-top: 4rem;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 156.023%; /* 31.205px */
+}
+
+.login input {
+    display: block;
+    padding:1rem 0;
+    width: 22rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.login input::placeholder {
+    color: #222124;
+    font-weight: bold;
+}
+.login ion-icon {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.login .Submit {
+    padding: .7rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 32px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    border-style: none;
+    color: #7B6F57;
+    background-color: white;
+    cursor: pointer;
+}
+.login .Submit.active {
+    background-color: #7B6F57;
+    color: white;
+}
+
+/* .login.active{
+    display: block;
+} */
