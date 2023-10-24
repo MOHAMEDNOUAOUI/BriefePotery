@@ -292,10 +292,13 @@
     }
     .login {
         position: absolute;
-        right: 20%;
-        left: 20%;
+        left: 0;
         top: 0;
         height: auto;
+        width: 100%;
+    }
+    .login input {
+        padding-right: 0;
     }
     .hoursshift {
         gap: 2rem;
