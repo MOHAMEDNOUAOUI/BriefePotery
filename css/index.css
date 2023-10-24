@@ -112,7 +112,7 @@ header #HOME {
 .container1 .pots {
     height: 100%;
     width: 100%;
-    background-image: url(../images/Pots\ &\ Dots..jpg);
+    background-image: url(../IMAGES/Pots\ &\ Dots..jpg);
     background-size: cover;
     background-position: center;
 }
@@ -120,7 +120,7 @@ header #HOME {
 .container1 .cendrier {
     height: 100%;
     width: 100%;
-    background-image: url(../images/cendrier.jpg);
+    background-image: url(../IMAGES/cendrier.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -128,7 +128,7 @@ header #HOME {
 .container1 .vaisselle {
     height: 100%;
     width: 100%;
-    background-image: url(../images/VAISSEL.jfif);
+    background-image: url(../IMAGES/VAISSEL.jfif);
     background-size: cover;
     background-position: center;
 }
@@ -136,7 +136,7 @@ header #HOME {
 .container1 .plats {
     height: 100%;
     width: 100%;
-    background-image: url(../images/PLAT.jfif);
+    background-image: url(../IMAGES/PLAT.jfif);
     background-size: cover;
     background-position: center;
 }
@@ -144,7 +144,7 @@ header #HOME {
 .container1 .tajins {
     height: 100%;
     width: 100%;
-    background-image: url(../images/TAJIN.jfif);
+    background-image: url(../IMAGES/TAJIN.jfif);
     background-size: cover;
     background-position: center;
 }
